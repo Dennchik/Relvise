@@ -1,0 +1,1 @@
+{"version":3,"names":[],"mappings":"","sources":["app.js"],"sourcesContent":["//* --------------------------------[jScript]-----------------------------------\nwindow.onload = function () {\n\tlet preloader = document.querySelector('.preloader');\n\tsetTimeout(() => {\n\t\tpreloader.classList.add(\"preloader-remove\");\n\t}, 250);\n\n};"],"file":"app.js"}
