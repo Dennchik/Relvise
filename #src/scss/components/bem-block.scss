@@ -102,14 +102,15 @@
 .input {
 	display: block;
 	width: 100%;
-	border-radius: 0 !important;
-	border: 1px solid #dadada;
+	// border-radius: 0 !important;
+	border-radius: 5px;
+	border: 1px solid #e6e6e6;
 	color: #333;
-	&._focus {
-	}
+	// &._focus {
+	// }
 
-	&._error {
-	}
+	// &._error {
+	// }
 }
 
 textarea.input {
@@ -147,10 +148,10 @@ textarea.input {
 	img {
 		position: absolute;
 		top: 0;
-		left: 0;
+		right: 0;
 		width: 100%;
 		height: 100%;
-		object-fit: contain;
+		object-fit: cover;
 	}
 }
 //* -------------------------- [Class _img] ------------------------------------
@@ -158,13 +159,11 @@ textarea.input {
 	img {
 		position: absolute;
 		top: 0;
-		left: 0;
+		right: 0;
 		width: 100%;
 		min-width: 100%;
 		height: 100%;
 		vertical-align: middle;
-		width: 100%;
-		height: 100%;
 		object-fit: cover;
 	}
 }
@@ -227,13 +226,22 @@ textarea.input {
 }
 //*------------------------------ < Button > -----------------------------------
 button {
-	border-radius: 2px;
-	cursor: pointer;
-	color: inherit;
-	background-color: transparent;
 	display: inline-flex;
+	padding: 1rem 2rem;
+	flex-direction: column;
 	align-items: center;
-	justify-content: center;
+	gap: 1rem;
+
+	border-radius: 5px;
+	border: 1px solid $primary-color;
+	background: transparent;
+	span {
+		font-size: 1.4rem;
+		font-weight: 600;
+		line-height: 2.4rem; /* 171.429% */
+		letter-spacing: 0.2px;
+		color: $primary-color;
+	}
 	// overflow: hidden;
 }
 // -----------------------------------------------------------------------------

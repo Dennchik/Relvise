@@ -22,19 +22,16 @@
 .wrapper {
 	display: flex;
 	flex-direction: column;
-	flex: 1 1 100%;
 	position: relative;
 	max-width: $maxWidth;
 	min-height: 100vh;
 	margin: 0 auto;
+	background-color: $bgColor;
 }
 
 [class*='_container'] {
-	/* border: groove; */
-
 	box-sizing: content-box;
 	max-width: $maxWidthContainer;
-	height: 100%;
 	margin: 0 auto;
 	padding: 0 15px;
 }
