@@ -8,6 +8,13 @@
   --inset-left: 0;
 }
 
+@font-face {
+  font-family: "Vhiena-Regular";
+  font-display: swap;
+  src: url("../fonts/Vhiena-Regular.eot") format("eot"), url("../fonts/Vhiena-Regular.woff") format("woff"), url("../fonts/Vhiena-Regular.woff2") format("woff2"), url("../fonts/Vhiena-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
 html,
 body {
   background-color: #ededed;
