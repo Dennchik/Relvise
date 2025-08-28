@@ -156,6 +156,7 @@ textarea.input {
 }
 //* -------------------------- [Class _img] ------------------------------------
 [class*=' _img'] {
+	position: relative;
 	img {
 		position: absolute;
 		top: 0;

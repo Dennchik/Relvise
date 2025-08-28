@@ -374,6 +374,9 @@ textarea.input {
   object-fit: cover;
 }
 
+[class*=" _img"] {
+  position: relative;
+}
 [class*=" _img"] img {
   position: absolute;
   top: 0;
